@@ -15,6 +15,7 @@ class Detail extends Component {
             <div className="wrapper">
                 <header className="header">
                     <span onClick={() => {
+                        //点击详情进行跳转
                         this.props.history.goBack()
                     }}>&lt;</span>
                     <span>详情页</span>
